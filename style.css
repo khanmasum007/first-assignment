@@ -1,0 +1,218 @@
+/* for full site */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top section */
+.main-banner{
+   
+    background-image: url(./donation1.jpg) ;
+    background-size: cover;
+}
+
+/* top-section-content-overlay */
+.top-banner{
+   height: 100%;
+    background-color: rgba(0, 0, 0, 0.577);
+}
+
+/* top-section-content */
+.banner-content{
+    text-align: center ;
+    padding-top: 30px;
+}
+.banner-content h1{
+    color: white;
+    font-size: 61px;
+    padding: 0px 400px; 
+    font-weight: 800;
+}
+.banner-content p{
+    color: white;
+    padding: 0px 500px;
+}
+
+/* banner-button */
+.all-button{
+    border: none;
+    background-color: rgb(252, 88, 5);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 100px;}
+/*/ bannner-section-close /*/
+
+/* donate-section */
+.donate-section{
+    margin-top: 70px;
+}
+.donate-content{
+    text-align: center;
+    padding: 0px 400px;
+}
+.donate-content h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.discription{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+/* ammount-box */
+.donate-ammount{
+    display: flex;
+    text-align: center;
+    padding: 30px 460px;
+}
+
+.ammount{
+    padding: 0px 30px;
+    background-color: rgba(159, 153, 153, 0.121);
+    margin-left: 10px;
+    color: rgb(97, 97, 97);
+    border-radius: 5px;
+}
+.selected{
+    background-color: rgba(252, 87, 5, 0.429);
+    border: 2px solid rgb(255, 149, 0);
+}
+
+
+    /* placeholder */
+ .other-ammount{
+    text-align: center;
+ }
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+.input-name{
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 70;
+    padding: 20px;
+    border-bottom: 2px solid rgba(10, 11, 12, 0.394);
+    width: 50%;
+    
+}
+/* donate-button */
+.donate-button{
+    text-align: center;
+}
+/* donate-section-close */
+
+/* Donation-plan-section */
+
+.plan-heading{
+    text-align: center;
+    padding: 0px 400px;
+    margin-bottom: 50px;
+}
+.plan-heading h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+}
+
+/* plan-box */
+.plan-box{
+    display: flex;
+    text-align: center;
+    padding: 0px 200px;
+}
+
+.plan-box1{
+    background-color: rgb(136, 136, 201);
+}
+.plan-box2{
+    background-color: rgb(80, 186, 213);
+}
+.plan-box3{
+    background-color: rgb(23, 237, 198);
+}
+.plan-box img{
+    width: 30%;
+    
+}
+.all-box{
+    text-align: left;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* plan-section-close */
+
+/* Event-Section */
+.event-details{
+    text-align: center;
+    padding-left: 12px;
+    margin-top: 100px;
+}
+.event-heading h1{
+    font-size: 40px;
+    font-weight: 800%;
+}
+.all-event{
+    display: flex;
+    padding-left: 120px;
+    margin: auto;
+}
+.event-1{
+    width: 20%;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px gray;
+
+}
+.event-1 img{
+    width: 50%;
+}
+
+/* subscription-section */
+.subscription-heading{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 500px;
+}
+.subscription-heading h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+}
+
+.down-show{
+    text-align: center;
+    padding: 0px 400px;
+}
+.subsciption-form{
+    text-align: center;
+    background-color: beige;
+    height:100px;
+}
+.input-name2{
+    text-align: center;
+   border-radius: 5px;
+    padding: 8px;
+    border: 2px solid rgba(252, 88, 5);
+}
+/* subscription-section-close */
+
+/* Footer */
+.footer-section{
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.689);
+    text-align: center;
+}
+.footer-closing{
+    padding: 20px;
+
+}
+.footer-closing h1{
+    color: rgb(252, 88, 5);
+}
+/* footer section close */
+
