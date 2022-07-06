@@ -6,7 +6,7 @@
 /* top section */
 .main-banner{
    
-    background-image: url(./donation1.jpg) ;
+    background-image: url(./imgs/donation1.jpg) ;
     background-size: cover;
 }
 
@@ -34,6 +34,7 @@
 
 /* banner-button */
 .all-button{
+    cursor: pointer;
     border: none;
     background-color: rgb(252, 88, 5);
     padding: 10px 15px;
@@ -162,10 +163,12 @@
     margin: auto;
 }
 .event-1{
-    width: 20%;
+    background: #fff;
+    box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+    border: 1px solid #e7ebf4;
+    border-radius: 4px;
     padding: 10px;
-    margin-left: 10px;
-    box-shadow: 5px 5px gray;
+    margin: 10px;
 
 }
 .event-1 img{
